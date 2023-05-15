@@ -7,6 +7,6 @@ in the makefile. Take a look.
 * For the check the tools otool or file are tested.
 
 ## For testing
-* Make is primordial then you can execute the script.
+* The script take an argument who are your file.so.
 
 GIVE me feedbacks!!
