@@ -31,7 +31,7 @@ $(NAME): $(SRCS)
 #	Create the new binary exec
 	@$(CC) obj/$(SRCS:.c=.o) $(NAME).so -o $(NAME) > /dev/null
 	@sleep 1
-	@printf "$(G)\rDone!$(R)\n\n"
+	@printf "$(G)\rDone : $(NAME)!$(R)\n\n"
 
 clean:
 	@rm -rf obj/*.o obj/ > /dev/null

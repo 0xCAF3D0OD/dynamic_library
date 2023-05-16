@@ -10,6 +10,7 @@ make
 # Check if ".so" exist in current directory
 SO_FILE=$(ls -1 *.so 2>/dev/null)
 # Set file path to ".so" file in current directory
+printf "${G}so file is: $SO_FILE${NC}\n"
 if [ "$#" -eq 0 ]; then
 	FILE_PATH="$SO_FILE"
 else
