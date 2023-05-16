@@ -1,5 +1,5 @@
 # dynamic_library
-* How to create a dynamic library, don't loose time in the .c and .h file all the informations are
+* How to create a dynamic library, don't loose time in the .c and .h files all the informations are
 in the makefile. Take a look.
 
 ## Binary .sh
