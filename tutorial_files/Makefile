@@ -1,8 +1,8 @@
-NAME=	hello
+NAME=	tri_a_bulles
 CC=		gcc
 CFLAG=	$(shell echo $$CFLAG)
 LDFLAG=	-shared
-SRCS=	hello.c
+SRCS=	tri_a_bulles.c
 
 G=		\033[32m
 R=		\033[0m
